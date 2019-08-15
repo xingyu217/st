@@ -1,4 +1,3 @@
-trigger: none
 pr: none
 schedules:
 - cron: "*/10 0-11 * * 0"
