@@ -1,12 +1,12 @@
 pr: none
 schedules:
-- cron: "*/10 0-11 * * 0"
+- cron: "*/10 0-11 * * *"
   displayName: "0_11 0"
   branches:
     include:
     - master
   always: true
-- cron: "*/10 12-23 * * 0"
+- cron: "*/10 12-23 * * *"
   displayName: "12_23 0"
   branches:
     include:
