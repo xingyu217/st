@@ -1,0 +1,19 @@
+trigger: none
+pr: none
+schedules:
+- cron: "*/10 0-11 * * 0"
+  displayName: "0_11 0"
+  branches:
+    include:
+    - master
+  always: true
+- cron: "*/10 12-23 * * 0"
+  displayName: "12_23 0"
+  branches:
+    include:
+    - master
+  always: true
+jobs:
+  - job: 
+    steps:
+      - script: echo "Should be triggered from a push to my-app-repo!"
