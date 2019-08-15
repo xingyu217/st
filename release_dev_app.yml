@@ -16,4 +16,4 @@ schedules:
 jobs:
   - job: 
     steps:
-      - script: echo "Should be triggered from a push to my-app-repo!"
+      - script: echo "Should be triggered from a push to my-app-repo2!"
